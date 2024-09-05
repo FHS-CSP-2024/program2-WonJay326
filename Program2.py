@@ -50,8 +50,10 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
+name = input("what is your nmae? ")
 
-
+print(name)            
+print(name)
 
 
 ## Problem 2 ##
@@ -60,6 +62,8 @@
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
 
+name = input("what is your nmae? ")
+print("!name! + name!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -71,11 +75,26 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+firtst_name = input("What is you first name?")
+last_name = input("what is your last name?")
+street_address = input("What is your street address?")
+city_postal_code = input("What is your city postal code?")
+
+print("First name: {Steve}")
+print("Last name: {anders}")
+print("Street address: {91 Station Road}")
+print("City and postal code: {Folsom CA, 95630}")
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+W1 = input("How do we do this?")
+W2 = input("We have to make up our own story.")
+W3 = input("I don't have any ideas.")     
+
+print( W1 + W2 + W3 )
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +107,10 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name = input("Please type in a name ")
+year = input("Please type in a year ")
+
+print(f"{name} is a valiant knight, born in the year {year}.")
+print(f"One morning {name} woke up to an awful racket: a dragon was approaching the village.")
+print(f"Only {name} could save the village's residents.")
